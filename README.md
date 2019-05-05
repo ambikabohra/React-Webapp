@@ -2,10 +2,8 @@
 ## Prerequisites
 
 ```
-npm install create-react-app rent-deals
 npm install react-router-dom
 npm install react-bootstrap bootstrap
-
 ```
 
 ## Steps to run

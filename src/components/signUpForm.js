@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Figure, Form, Button, Carousel } from 'react-bootstrap';
+import { Row, Col, Form, Button  } from 'react-bootstrap';
 
 export default class SignUpForm extends React.Component {
 
@@ -36,7 +36,7 @@ export default class SignUpForm extends React.Component {
     handleSubmit =  async event => {
         // event.preventDefault();
         console.log("inside signup handleSubmit function!!");
-        const form = event.currentTarget;
+        // const form = event.currentTarget;
         this.checkValidity();
         if (this.state.validated === false) {
             event.preventDefault();

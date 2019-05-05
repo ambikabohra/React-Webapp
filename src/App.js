@@ -2,7 +2,6 @@ import React from 'react';
 // import logo from './logo.svg';
 
 import HeaderNew from "./components/headerNew.js";
-import Main from "./components/main.js";
 import SignInForm from "./components/signInForm.js";
 import { Container } from "react-bootstrap";
 

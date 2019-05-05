@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Figure, Form, Button, Carousel } from 'react-bootstrap';
+import { Row, Col,  Form, Button } from 'react-bootstrap';
 
 export default class SignInForm extends React.Component {
 

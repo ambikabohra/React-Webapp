@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from "react-bootstrap";
 import HeaderNew from "../components/headerNew.js";
-import Main from "../components/main.js";
+import CarouselAbout from "../components/carouselAbout.js";
 
 export default class About extends React.Component {
 
@@ -17,7 +17,7 @@ export default class About extends React.Component {
             <div className="App" style={sectionStyle}>
                 <Container >
                     <HeaderNew  page="signUp"/>
-                    <Main />
+                    <CarouselAbout />
                 </Container>
             </div>
         )

@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../logo.svg';
-import { Row, Col,Nav, Navbar, Form, FormControl, Button } from 'react-bootstrap';
+import { Row, Col,Nav, Form, Button } from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
 export default class HeaderNew extends React.Component {
@@ -19,8 +19,8 @@ export default class HeaderNew extends React.Component {
 
     render() {
         const pagename= this.props.page;
-        const buttonText = (pagename == "signUp") ? "Log In" : "Sign Up";
-        const pathURL= (pagename == "signUp") ? "/" : "/signUp";
+        const buttonText = (pagename === "signUp") ? "Log In" : "Sign Up";
+        const pathURL= (pagename === "signUp") ? "/" : "/signUp";
         console.log(pagename+ " "+ buttonText);
 
         return (
